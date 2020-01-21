@@ -11,9 +11,55 @@ Genomics workshops
 {% endcomment %}
 
 {% elsif site.curriculum == "dc-genomics" %}
+{% comment %}
 <p>The setup instructions for the Data Carpentry Genomics workshops can be found at <a href="https://datacarpentry.org/genomics-workshop/setup.html">the workshop overview site</a>.
   Please follow only the setup instructions for the required additional software.</p>
+{% endcomment %}
 
+<p>This lesson requires a working spreadsheet program. If you don’t have a spreadsheet program already, you can use LibreOffice. It’s a free, open source spreadsheet program.</p>
+
+<blockquote class="solution">
+  <h2 id="windows">Windows</h2>
+  <ul>
+    <li>Install LibreOffice by going to <a href="https://www.libreoffice.org/download/libreoffice-fresh/">the installation page</a>. The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don’t need to make one. Your download should begin automatically.</li>
+    <li>Once the installer is downloaded, double click on it and LibreOffice should install.</li>
+    <li>Download the <a href="https://git-for-windows.github.io/">Git for Windows installer</a>. Run the installer and follow the steps below:
+      <ul>
+        <li>Click on “Next” four times (two times if you’ve previously installed Git). You don’t need to change anything in the Information, location, components, and start menu screens.</li>
+        <li>Select “Use the nano editor by default” and click on “Next”.</li>
+        <li>Keep “Use Git from the Windows Command Prompt” selected and click on “Next”. If you forgot to do this programs that you need for the workshop will not work properly. If this happens rerun the installer and select the appropriate option.</li>
+        <li>Click on “Next”.</li>
+        <li>Keep “Checkout Windows-style, commit Unix-style line endings” selected and click on “Next”.</li>
+        <li>Select “Use Windows’ default console window” and click on “Next”.</li>
+        <li>Click on “Install”.</li>
+        <li>Click on “Finish”.</li>
+        <li>If your “HOME” environment variable is not set (or you don’t know what this is):</li>
+        <li>Open command prompt (Open Start Menu then type <code class="language-plaintext highlighter-rouge">cmd</code> and press [Enter])</li>
+        <li>Type the following line into the command prompt window exactly as shown: <code class="language-plaintext highlighter-rouge">setx HOME "%USERPROFILE%"</code></li>
+        <li>Press [Enter], you should see <code class="language-plaintext highlighter-rouge">SUCCESS: Specified value was saved.</code></li>
+        <li>Quit command prompt by typing <code class="language-plaintext highlighter-rouge">exit</code> then pressing [Enter]</li>
+      </ul>
+    </li>
+    <li>An <strong>alternative option</strong> is to install PuTTY by going to the <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">the installation page</a>. For most newer computers, click on putty-64bit-X.XX-installer.msi to download the 64-bit version. If you have an older laptop, you may need to get the 32-bit version putty-X.XX-installer.msi. If you aren’t sure whether you need the 64 or 32 bit version, you can check your laptop version by following <a href="https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq">the instructions here</a>. Once the installer is downloaded, double click on it, and PuTTY should install.</li>
+    <li><strong>Another alternative option</strong> is to use the Ubuntu Subsystem for Windows. This option is only available for Windows 10 - detailed <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">instructions are available here</a>.</li>
+  </ul>
+</blockquote>
+
+<blockquote class="solution">
+  <h2 id="mac-os-x">Mac OS X</h2>
+  <ul>
+    <li>Install LibreOffice by going to <a href="https://www.libreoffice.org/download/libreoffice-fresh/">the installation page</a>. The version for Mac should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don’t need to make one. Your download should begin automatically.</li>
+    <li>Once the installer is downloaded, double click on it and LibreOffice should install.</li>
+  </ul>
+</blockquote>
+
+<blockquote class="solution">
+  <h2 id="linux">Linux</h2>
+  <ul>
+    <li>Install LibreOffice by going to <a href="https://www.libreoffice.org/download/libreoffice-fresh/">the installation page</a>. The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don’t need to make one. Your download should begin automatically.</li>
+    <li>Once the installer is downloaded, double click on it and LibreOffice should install.</li>
+  </ul>
+</blockquote>
 
 {% comment %}
 Social sciences workshops
