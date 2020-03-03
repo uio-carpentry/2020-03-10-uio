@@ -1,15 +1,15 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "University of Oslo"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Seminar room 4613, Kristine Bonnevies Hus, Blindernveien 31, 0851 Oslo"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Seminar room 3508 (day 1), 3627 (day 2), Kristine Bonnevies Hus, Blindernveien 31, 0851 Oslo"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "no"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "59.938240"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "10.722040"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "March 10-11, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "March 23-24, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-03-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-03-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2020-03-23      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-03-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Lex Nederbragt", "Tina Visnovska"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["contact-us@swcarpentry.uio.no"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
